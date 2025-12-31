@@ -1,0 +1,669 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "blue-sally-1.21.4",
+      "name": "BlueSally",
+      "description": "Minecraft 1.21.4 (Fabric v0.18.4)",
+      "icon": "https://github.com/mchdistro/blue-sally/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "222.236.94.107",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "3eb32cc20a4f95115c6439a41a6d7212",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/versions/1.21.4-fabric-0.18.4/1.21.4-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://github.com/mchdistro/blue-sally/raw/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cubes-without-borders:3.0.0+mc1.21.3@jar",
+          "name": "Cubes Without Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80793,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/cwb-fabric-3.0.0+mc1.21.3.jar",
+            "MD5": "4278e7e73cb1337e3a198f1c5b921887"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.5.8@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1259819,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/emotecraft-fabric-for-MC1.21.4-2.5.8.jar",
+            "MD5": "ecbcffd1aa9d83847e00da62fc45d9b3"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.4@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71242,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/entityculling-fabric-1.7.4-mc1.21.4.jar",
+            "MD5": "814c40da37883f4e5ea565c49507429e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "kr.cosine.simplef3:hqsimplef3:1.0.0@jar",
+          "name": "HQSimpleF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71283,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/HQSimpleF3-fabric-1.0.0.jar",
+            "MD5": "198798a603b20a7de83f4286d66d3734"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.46@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3511796,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.46.jar",
+            "MD5": "693b9f00e61e0f4af855804dd1cea86b"
+          }
+        },
+        {
+          "id": "com.example.keyevent:keyeventmod:1.21.4@jar",
+          "name": "Key Checker Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5937,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/KeyChecker-1.21.4.jar",
+            "MD5": "ff7141b1402454eddab71fa974d47614"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.8.2+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3277510,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/koreanpatch-fabric-1.8.2+mc1.21.3.jar",
+            "MD5": "afac8343404b6eaa6f7ea7665224777f"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "net.longerchathistory:longerchathistory:1.7@jar",
+          "name": "Longer Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6885,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/LongerChatHistory-fabric-1.7.jar",
+            "MD5": "52a016e25e9aa53c4f50625fad995ac1"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21.3-1.10@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66412,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/modelfix-1.21.3-1.10-fabric.jar",
+            "MD5": "8e44b12c5c24a4303f45e73e40c162f2"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:13.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050777,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/modmenu-13.0.3.jar",
+            "MD5": "e8884b37fe775f30a0121c4fbdfb32ac"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.8@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12213905,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.8.jar",
+            "MD5": "7874e23c243c3de71018a8673a741074"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.10@jar",
+          "name": "Root project 'Prism'",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 61631,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/Prism-1.21.4-fabric-1.0.10.jar",
+            "MD5": "66051303e3433bc10796c2c92f57c7da"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.7@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 43552,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/status-effect-bars-1.0.7.jar",
+            "MD5": "a9f4e1d7102e210957bd246106cbbb50"
+          }
+        },
+        {
+          "id": "com.goby56:wakes:0.4.2+1.21.4@jar",
+          "name": "Wakes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 268577,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/fabricmods/required/wakes-0.4.2+1.21.4.jar",
+            "MD5": "eec865ede580b4185f9d6759baaac9dd"
+          }
+        },
+        {
+          "id": "devinsit.emotecraft",
+          "name": "devinsit.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 88957,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/devinsit.emotecraft",
+            "MD5": "b480774433211459e98521dd83dbd197",
+            "path": "emotes/devinsit.emotecraft"
+          }
+        },
+        {
+          "id": "devinsleep1.emotecraft",
+          "name": "devinsleep1.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 15545,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/devinsleep1.emotecraft",
+            "MD5": "56f3b56bb67f688ad705a9fa53c8056f",
+            "path": "emotes/devinsleep1.emotecraft"
+          }
+        },
+        {
+          "id": "devinsleep2.emotecraft",
+          "name": "devinsleep2.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 22517,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/devinsleep2.emotecraft",
+            "MD5": "eb3bbaec0022ec014dbc3e66659d82db",
+            "path": "emotes/devinsleep2.emotecraft"
+          }
+        },
+        {
+          "id": "devinsleep3.emotecraft",
+          "name": "devinsleep3.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 23425,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/devinsleep3.emotecraft",
+            "MD5": "3e9cdeabb5ae21e95827d7d47a0a6704",
+            "path": "emotes/devinsleep3.emotecraft"
+          }
+        },
+        {
+          "id": "exum shuffle.emotecraft",
+          "name": "exum shuffle.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 34277,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/exum%20shuffle.emotecraft",
+            "MD5": "efcd02d004b8dd52e872476e7232de01",
+            "path": "emotes/exum shuffle.emotecraft"
+          }
+        },
+        {
+          "id": "Hug.emotecraft",
+          "name": "Hug.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 505,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Hug.emotecraft",
+            "MD5": "83f6674eb4f414971d9fda3729f6114a",
+            "path": "emotes/Hug.emotecraft"
+          }
+        },
+        {
+          "id": "kazotsky kick.emotecraft",
+          "name": "kazotsky kick.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 29424,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/kazotsky%20kick.emotecraft",
+            "MD5": "7cbbb6fc34809dae7462444eec3b670d",
+            "path": "emotes/kazotsky kick.emotecraft"
+          }
+        },
+        {
+          "id": "Kneeling.emotecraft",
+          "name": "Kneeling.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 16286,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Kneeling.emotecraft",
+            "MD5": "943d7c6e539ea522d1865ad307ca68ef",
+            "path": "emotes/Kneeling.emotecraft"
+          }
+        },
+        {
+          "id": "Kratos Falling.emotecraft",
+          "name": "Kratos Falling.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 1481,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Kratos%20Falling.emotecraft",
+            "MD5": "7f4a4cbeb9ea1fe607d90eda80a65bbd",
+            "path": "emotes/Kratos Falling.emotecraft"
+          }
+        },
+        {
+          "id": "Melon.emotecraft",
+          "name": "Melon.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 949,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Melon.emotecraft",
+            "MD5": "531856b44a1c4499cc892fc61e3617b2",
+            "path": "emotes/Melon.emotecraft"
+          }
+        },
+        {
+          "id": "naruto run.emotecraft",
+          "name": "naruto run.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 34972,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/naruto%20run.emotecraft",
+            "MD5": "3b0d67386463aa2f486b9252bec9c966",
+            "path": "emotes/naruto run.emotecraft"
+          }
+        },
+        {
+          "id": "Omni-Man THINK!.emotecraft",
+          "name": "Omni-Man THINK!.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 27099,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Omni-Man%20THINK!.emotecraft",
+            "MD5": "d1a810846e564670fcbc484536bba04e",
+            "path": "emotes/Omni-Man THINK!.emotecraft"
+          }
+        },
+        {
+          "id": "OmniMan Sit Permanent.emotecraft",
+          "name": "OmniMan Sit Permanent.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 731,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/OmniMan%20Sit%20Permanent.emotecraft",
+            "MD5": "ae2798ddbe33e1c49e2d4454ad4e3152",
+            "path": "emotes/OmniMan Sit Permanent.emotecraft"
+          }
+        },
+        {
+          "id": "Orange Justice.emotecraft",
+          "name": "Orange Justice.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 143924,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Orange%20Justice.emotecraft",
+            "MD5": "28dfc62b3597b69ad8f91754672acf0e",
+            "path": "emotes/Orange Justice.emotecraft"
+          }
+        },
+        {
+          "id": "Praise the sun.emotecraft",
+          "name": "Praise the sun.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 621,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Praise%20the%20sun.emotecraft",
+            "MD5": "6383e629b6304bc412bebe8271dda24d",
+            "path": "emotes/Praise the sun.emotecraft"
+          }
+        },
+        {
+          "id": "Sobbing.emotecraft",
+          "name": "Sobbing.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 59495,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Sobbing.emotecraft",
+            "MD5": "88545d5859016a269f57b317d13bca0c",
+            "path": "emotes/Sobbing.emotecraft"
+          }
+        },
+        {
+          "id": "Twerk.emotecraft",
+          "name": "Twerk.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 66990,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Twerk.emotecraft",
+            "MD5": "6fe49e96064632094875cd980e84558c",
+            "path": "emotes/Twerk.emotecraft"
+          }
+        },
+        {
+          "id": "Worth the Wait Dance (full ver).emotecraft",
+          "name": "Worth the Wait Dance (full ver).emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 65467,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Worth%20the%20Wait%20Dance%20(full%20ver).emotecraft",
+            "MD5": "e2308d669578b707f6e705881591d062",
+            "path": "emotes/Worth the Wait Dance (full ver).emotecraft"
+          }
+        },
+        {
+          "id": "Zero Two Wiggle.emotecraft",
+          "name": "Zero Two Wiggle.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 994295,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/emotes/Zero%20Two%20Wiggle.emotecraft",
+            "MD5": "03f2c7f020e096c25866e065291b5d9c",
+            "path": "emotes/Zero Two Wiggle.emotecraft"
+          }
+        },
+        {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 2687,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.core.config",
+            "path": "journeymap/config/6.0/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1301,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.fullmap.config",
+            "path": "journeymap/config/6.0/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 2302,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.minimap.config",
+            "path": "journeymap/config/6.0/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 2301,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.minimap2.config",
+            "path": "journeymap/config/6.0/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.rendering.config",
+          "name": "journeymap.rendering.config",
+          "type": "File",
+          "artifact": {
+            "size": 671,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.rendering.config",
+            "path": "journeymap/config/6.0/journeymap.rendering.config"
+          }
+        },
+        {
+          "id": "journeymap.topo.config",
+          "name": "journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 971,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.topo.config",
+            "path": "journeymap/config/6.0/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint.config",
+          "name": "journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 1215,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.waypoint.config",
+            "path": "journeymap/config/6.0/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap.config",
+          "name": "journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/journeymap/config/6.0/journeymap.webmap.config",
+            "path": "journeymap/config/6.0/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5403,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1229,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/plasmovoice/client.toml",
+            "MD5": "7748984b799e29e30da08efffc6ca1f7",
+            "path": "plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "BetterHangulFont.zip",
+          "name": "BetterHangulFont.zip",
+          "type": "File",
+          "artifact": {
+            "size": 80065,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/resourcepacks/BetterHangulFont.zip",
+            "MD5": "7e53a307e7c7a9f12c7ed189ad416112",
+            "path": "resourcepacks/BetterHangulFont.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 1778,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/servers.dat",
+            "MD5": "0d85a5b1208ea05b20c4a565401b67eb",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.zip",
+          "name": "ComplementaryUnbound_r5.6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500393,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/blue-sally-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.6.zip",
+            "MD5": "308fe42e792eaa2dc0974b9ffbb61777",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

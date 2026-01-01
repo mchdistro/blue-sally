@@ -427,7 +427,6 @@
           "artifact": {
             "size": 310,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/files/config/iris.properties",
-            "MD5": "51f4f5aed8220c32f17d947fa2ef3e31",
             "path": "config/iris.properties"
           }
         },
@@ -438,7 +437,6 @@
           "artifact": {
             "size": 1229,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/files/config/plasmovoice/client.toml",
-            "MD5": "7748984b799e29e30da08efffc6ca1f7",
             "path": "config/plasmovoice/client.toml"
           }
         },

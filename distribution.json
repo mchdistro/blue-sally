@@ -131,6 +131,26 @@
           ]
         },
         {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21.3@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1095505,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/appleskin-fabric-mc1.21.3-3.0.6.jar",
+            "MD5": "eadbff2f246d5494c530a795be893997"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fullscreenfix:2.2.1@jar",
+          "name": "Borderless Fullscreen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107040,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/BorderlessFullscreen-v2.2.1a-mc1.21.2.jar.jar",
+            "MD5": "98aa6f86395061b9986824a8fea6ade0"
+          }
+        },
+        {
           "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
           "name": "Cloth Config v17",
           "type": "FabricMod",
@@ -138,6 +158,16 @@
             "size": 1152857,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
             "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21.4@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1001061,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/continuity-3.0.0+1.21.4.jar",
+            "MD5": "cb5480ac95db653d5376ec1b41797b56"
           }
         },
         {
@@ -181,6 +211,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.7+kotlin.2.2.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479608,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+            "MD5": "89a977d6a4d7a84b8390f9143dd689f7"
+          }
+        },
+        {
           "id": "kr.cosine.simplef3:hqsimplef3:1.0.0@jar",
           "name": "HQSimpleF3",
           "type": "FabricMod",
@@ -201,13 +241,13 @@
           }
         },
         {
-          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.46@jar",
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
           "name": "Journeymap",
           "type": "FabricMod",
           "artifact": {
-            "size": 3511796,
-            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.46.jar",
-            "MD5": "693b9f00e61e0f4af855804dd1cea86b"
+            "size": 3514383,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
           }
         },
         {
@@ -228,6 +268,16 @@
             "size": 3277510,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/koreanpatch-fabric-1.8.2+mc1.21.3.jar",
             "MD5": "afac8343404b6eaa6f7ea7665224777f"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:4.1.3+1.21.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1038224,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/lambdynamiclights-4.1.3+1.21.4.jar",
+            "MD5": "98e4a366c817980aa3c1bc490b3b68d1"
           }
         },
         {
@@ -271,6 +321,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:placeholder-api:2.5.2+1.21.3@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 237288,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/placeholder-api-2.5.2+1.21.3.jar",
+            "MD5": "80b2dea3d99621d2b76db30a0582665d"
+          }
+        },
+        {
           "id": "su.plo.voice:plasmovoice:2.1.8@jar",
           "name": "Plasmo Voice",
           "type": "FabricMod",
@@ -291,6 +351,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:sodium-extra:0.6.1+mc1.21.4@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360180,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/sodium-extra-fabric-0.6.1+mc1.21.4.jar",
+            "MD5": "4d43b252c771523c6e0a219e9eadd63b"
+          }
+        },
+        {
           "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -298,6 +368,16 @@
             "size": 1306799,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
             "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "generated.fabricmod:spu:1.8@jar",
+          "name": "Server Pack Unlocker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20592,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/spu-1.8.jar",
+            "MD5": "8960ccdf429dc1c51324e72a30f035c4"
           }
         },
         {
@@ -318,6 +398,26 @@
             "size": 268577,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/wakes-0.4.2+1.21.4.jar",
             "MD5": "eec865ede580b4185f9d6759baaac9dd"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.0+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1129486,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/yet_another_config_lib_v3-3.8.0+1.21.4-fabric.jar",
+            "MD5": "17681212a0394b531ebe88b5e398b5c4"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.3@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807977,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/Zoomify-2.14.2+1.21.3.jar",
+            "MD5": "3b501d83e685e5cc6c7a2e339145434a"
           }
         },
         {
@@ -668,9 +768,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 1778,
+            "size": 1769,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/files/servers.dat",
-            "MD5": "0d85a5b1208ea05b20c4a565401b67eb",
+            "MD5": "aacb61228422ecbadc2686cab603ef51",
             "path": "servers.dat"
           }
         },

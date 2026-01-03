@@ -131,16 +131,6 @@
           ]
         },
         {
-          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21.3@jar",
-          "name": "AppleSkin",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1095505,
-            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/appleskin-fabric-mc1.21.3-3.0.6.jar",
-            "MD5": "eadbff2f246d5494c530a795be893997"
-          }
-        },
-        {
           "id": "generated.fabricmod:fullscreenfix:2.2.1@jar",
           "name": "Borderless Fullscreen",
           "type": "FabricMod",
@@ -388,6 +378,16 @@
             "size": 43552,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/status-effect-bars-1.0.7.jar",
             "MD5": "a9f4e1d7102e210957bd246106cbbb50"
+          }
+        },
+        {
+          "id": "kr.shihyeon:tabnametag:0.1.0+mc1.21.2@jar",
+          "name": "TabNameTag",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11004,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/tabnametag-fabric-0.1.0+mc1.21.2.jar",
+            "MD5": "ccd2d08433133ca66ca082dd459a003e"
           }
         },
         {
@@ -766,9 +766,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 1769,
+            "size": 1774,
             "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/files/servers.dat",
-            "MD5": "aacb61228422ecbadc2686cab603ef51",
+            "MD5": "4131d2e64169ca97cf2bd35f5116851c",
             "path": "servers.dat"
           }
         },

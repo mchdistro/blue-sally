@@ -141,6 +141,16 @@
           }
         },
         {
+          "id": "kr.yongpyo.BSItemTooltip:bsitemtooltip:1.0.0@jar",
+          "name": "BSItemTooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5685,
+            "url": "https://github.com/mchdistro/blue-sally/raw/main/servers/v1-1.21.4/fabricmods/required/BSItemTooltip-1.0.0.jar",
+            "MD5": "dcf3b3696802d3597ebb8331dea6a5f5"
+          }
+        },
+        {
           "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
           "name": "Cloth Config v17",
           "type": "FabricMod",
